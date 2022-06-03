@@ -164,7 +164,7 @@
 #include <OpenGL/glext.h>
 #else
 #include <GL/gl.h>
-#include <GL/glext.h>
+#include "glext.h"
 #endif
 #include <stdio.h>
 #include <assert.h>

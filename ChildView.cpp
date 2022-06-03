@@ -140,8 +140,8 @@ void CChildView::RenderScene()
 		int x = m_OldMousePos.x - m_NewMousePos.x;
 		int y = m_OldMousePos.y - m_NewMousePos.y;
 		
-		static anglex = 0;
-		static angley = 0;
+		static int anglex = 0;
+		static int angley = 0;
 		anglex += x;
 		angley += y;
 		glRotatef(270,1,0,0);
